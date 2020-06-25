@@ -24,14 +24,13 @@ https://www-nds.iaea.org/CRP-photonuclear/index_3RCM.html
 
 
 ## Report
-The report on ``Processing of the Updated Evaluated
-Photonuclear Data Library (IAEA-PD2019)'' is available here:
+The report on "Processing of the Updated Evaluated
+Photonuclear Data Library (IAEA-PD2019)" is available here:
 
 https://www-nds.iaea.org/publications/nds/iaea-nds-0232/
 
 ## Download
-As this is a private repository, to edit this source you must have been granted access and must ask S.Okumura to do so.  
-You can therefore download the repository from a terminal using:
+You can download the repository from a terminal using:
 
 ```
 git clone https://github.com/IAEA-NDS/IAEA-PD2019.git
@@ -41,7 +40,7 @@ git clone https://github.com/IAEA-NDS/IAEA-PD2019.git
 THIS REPOSITORY CONTAINS FILES THAT ARE STILL TEMPORARY WORKING VESION.
 
 Please note that the master file should be managed by IAEA-NDS. Please
-let us know if you have any problems that need to correct.
+let us (NDS.Contact-Point@iaea.org) know if you have any problems that need to correct.
 
 
 
