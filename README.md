@@ -1,4 +1,4 @@
-THIS REPOSITORY CONTAINS FILES THAT ARE STILL TEMPORARY WORKING VESION.
+THIS REPOSITORY CONTAINS FILES THAT ARE STILL TEMPORARY WORKING VERSION.
 
 # IAEA Updated Evaluated Photonuclear Data Library (IAEA/PD-2019)
 This repository is for the package of the validation and verification
@@ -37,7 +37,7 @@ git clone https://github.com/IAEA-NDS/IAEA-PD2019.git
 ```
 
 ## Notifications
-THIS REPOSITORY CONTAINS FILES THAT ARE STILL TEMPORARY WORKING VESION.
+THIS REPOSITORY CONTAINS FILES THAT ARE STILL TEMPORARY WORKING VERSION.
 
 Please note that the master file should be managed by IAEA-NDS. Please
 let us (NDS.Contact-Point@iaea.org) know if you have any problems that need to correct.
