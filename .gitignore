@@ -21,6 +21,10 @@
 *.plt
 *converted-to.pdf
 tape*
+#hendf/
+#gxs/
+#ace/
+*.tar.gz
 
 # Emacs
 .\#*
