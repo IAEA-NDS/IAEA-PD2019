@@ -1,7 +1,0 @@
-compile_pdf:
-  image: aergus/latex
-  script:
-    - latexmk -pdf report.tex
-  artifacts:
-    paths:
-      - report.pdf
