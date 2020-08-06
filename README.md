@@ -1,7 +1,7 @@
 # IAEA Updated Evaluated Photonuclear Data Library (IAEA/PD-2019)
 This repository contains the IAEA Updated Evaluated Photonuclear Data Library (IAEA/PD-2019). 
 
-**Note that for the time being the ACE library defaults to isotropic any energy-angle distribution coded in law=1, lang=1 with na=1, a sequence not yet handled in Acer for photon induced file. This occurs for a few exit channels of 153 evaluations in the 219 presents in IAEA-PD2019. As soon as a patch for NJOY-2016 is released the ACE library will be updated and this warning removed. However, this impediment bears no impact on the cross-section, residual or emitted particle spectra, or application library derived using other processing systems.**
+**Note that for the time being the ACE library defaults to isotropic any energy-angle distribution coded in LAW=1, LANG=1 with NA=1, a sequence not yet handled in Acer (NJOY2016) for photon induced file. This occurs for a few exit channels of 153 evaluations in the 219 presents in IAEA-PD2019. As soon as a patch for NJOY2016 is released the ACE library will be updated and this warning removed. However, this impediment bears no impact on the cross-section, residual or emitted particle spectra, or application library derived using other processing systems.**
 
 ``iaea-pd2019.0`` directory contains the original ENDF-6 format data files fro 219 isotopes.  
 
