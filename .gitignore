@@ -25,6 +25,7 @@ tape*
 #gxs/
 #ace/
 *.tar.gz
+*.sh
 
 # Emacs
 .\#*
