@@ -30,7 +30,7 @@ To overcome some limitations of NJOY2016,
 the processing has been performed with ACEMAKER, see
 [this report][iaeapd19ace] for details.
 
-[iaeapd19ace]: https://github.com/iaea-nds/IAEA-PD2019/application-lib/iaea-nds-852-draft.
+[iaeapd19ace]: https://github.com/IAEA-NDS/IAEA-PD2019/blob/073a4d47a3d393c238f76fe6e8fdb9af7563358e/application-lib/iaea-nds-852-draft.pdf
 
 The details on how files were processed previously can be found in
 the report on "Processing of the Evaluated Photonuclear Data Library (IAEA/PD-2019)" at:
