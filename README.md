@@ -1,17 +1,23 @@
 # IAEA Updated Evaluated Photonuclear Data Library (IAEA/PD-2019)
 This repository contains the IAEA Photonuclear Data Library (IAEA/PD-2019).
+Please note that in order to retrieve ENDF and ACE files from this repository,
+you need [git-annex][git-annex]. Alternatively, you can download the files
+from the IAEA website, see the [Download section](#download) of this page.
 
-``iaea-pd2019`` directory contains the original ENDF-6 format data files of 219 isotopes.
-``application-lib`` directory contains:
+[git-annex]: https://git-annex.branchable.com/
+
+The `iaea-pd2019` directory contains the original ENDF-6 format data files of 219 isotopes.
+The `application-lib` directory contains:
 
 - /ace            : Type-1 (ASCII) cross-section files
-- iaeapd19.xs     : xsdir for IAEA/PD-2019
 - /extace         : ace files with additional data
 
-Some directories with `ace` files contain a subdirectory `plots`
-with plots in pdf format produced by NJOY2016.
+Plots obtained from the ace files are also available as
+pdf files in these directories. Each directory with
+ace files contains further a directory file (xsd)
+for each ace file and a complete directory listing.
 
-``activation-lib`` directory contains;
+There is also an activation library part in `activation-lib` which contains
 - /hendf         : Linearised ENDF
 - /gxs-162       : Groupwise FISPACT-II files with MF1,2,3,8,10,33,40
 - /graphs        : Evalplot check/plot
@@ -30,7 +36,7 @@ To overcome some limitations of NJOY2016,
 the processing has been performed with ACEMAKER, see
 [this report][iaeapd19ace] for details.
 
-[iaeapd19ace]: https://github.com/IAEA-NDS/IAEA-PD2019/blob/073a4d47a3d393c238f76fe6e8fdb9af7563358e/application-lib/iaea-nds-852-draft.pdf
+[iaeapd19ace]: https://github.com/IAEA-NDS/IAEA-PD2019/blob/dev/application-lib/indc-nds-858-draft.pdf
 
 The details on how files were processed previously can be found in
 the report on "Processing of the Evaluated Photonuclear Data Library (IAEA/PD-2019)" at:
@@ -43,8 +49,13 @@ You can download the repository from a terminal using:
 ```
 git clone https://github.com/IAEA-NDS/IAEA-PD2019.git
 ```
+In order to retrieve afterwards all large files (ENDF, ACE, etc.),
+run from the root directory of this repository
+```
+git annex get .
+```
 
-The ENDF-6 format data library and application libraries can be retrieved as compressed files (tar.gz) from the IAEA-NDS web site:
+The ENDF-6 format data library and application libraries can also be retrieved as compressed files (tar.gz) from the IAEA-NDS web site:
 
 <https://nds.iaea.org/photonuclear/>
 
