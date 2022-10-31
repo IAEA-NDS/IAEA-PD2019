@@ -1,4 +1,4 @@
-# IAEA Updated Evaluated Photonuclear Data Library (IAEA/PD-2019)
+# IAEA Updated Evaluated Photonuclear Data Library (IAEA/PD-2019.2)
 This repository contains the IAEA Photonuclear Data Library (IAEA/PD-2019).
 Please note that in order to retrieve ENDF and ACE files from this repository,
 you need [git-annex][git-annex]. Alternatively, you can download the files
@@ -7,15 +7,8 @@ from the IAEA website, see the [Download section](#download) of this page.
 [git-annex]: https://git-annex.branchable.com/
 
 The `iaea-pd2019` directory contains the original ENDF-6 format data files of 219 isotopes.
-The `application-lib` directory contains:
-
-- /ace            : Type-1 (ASCII) cross-section files
-- /extace         : ace files with additional data
-
-Plots obtained from the ace files are also available as
-pdf files in these directories. Each directory with
-ace files contains further a directory file (xsd)
-for each ace file and a complete directory listing.
+The `application-lib` directory contains `ace` files and plots.
+For details on the processed files, see [application-lib/README.md][app-lib-readme].
 
 There is also an activation library part in `activation-lib` which contains
 - /hendf         : Linearised ENDF
@@ -64,3 +57,4 @@ The ENDF-6 format data library and application libraries can also be retrieved a
 Please note that the master file will be managed by IAEA-NDS. Please
 let us (NDS.Contact-Point@iaea.org) know if you find any problems.
 
+[app-lib-readme]: https://github.com/IAEA-NDS/IAEA-PD2019/tree/dev/application-lib/README.md
